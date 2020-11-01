@@ -33,14 +33,9 @@ function Bio() {
                 borderRadius: `50%`,
               }}
             />
-            <p>
-              Written by <strong>{author}</strong>, a framework built upon the
-              React library.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter
-              </a>
-            </p>
+            <Link to="./blog/">
+          <Button marginTop="35px">Retour à l'accueil</Button>
+          </Link>
           </Container>
         )
       }}
