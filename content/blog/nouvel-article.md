@@ -1,7 +1,7 @@
 ---
 path: /blog
 date: 2020-11-01T14:23:27.540Z
-title: Nouvel article
+title: Article Exemple
 description: test
 ---
 <!--StartFragment-->
