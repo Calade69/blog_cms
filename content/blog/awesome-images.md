@@ -1,40 +1,17 @@
 ---
-path: awesome-images
+path: actualite-bouquet
 date: 2020-06-06T01:22:55.506Z
-title: Awesome Images
-description: Fix for gatsby-plugin-mdx and gatsby-remark-images
+title: Les bouquets
+description: Les plus belles réalisations de bouquet
 ---
-![Great Gatsby](/../assets/great2.jpg "Great Gatsby")
 
-## Netlify CMS Media Configuration
 
-First, in your `static/admin/config.yml`, make sure you have the following:
+![Bouquet de fleurs rouges](../assets/fleurs.jpg "Les tulipes")
 
-```
-media_folder: content/assets
-public_folder: ../assets
-```
+## Pour réaliser votre bouquet
 
-Docs: https://www.netlifycms.org/docs/configuration-options/#media-and-public-folders.
+<!--StartFragment-->
 
-## Gatsby Plugins
+Nulla in dui at justo tempor suscipit eu eget metus. Suspendisse dapibus risus sed libero varius, non venenatis diam luctus. Proin fringilla eros ut quam sagittis, quis eleifend nisi ultricies. Duis eu felis purus. Etiam elementum leo non mauris viverra iaculis. Fusce dictum, est non viverra elementum, enim risus viverra urna, non sagittis ipsum justo id nisl. Aliquam sit amet porta leo. Sed egestas lectus ligula, ut imperdiet ipsum convallis non. Morbi sollicitudin magna nec lectus eleifend lacinia et vitae mauris. Nunc semper sagittis risus a congue. Maecenas sit amet nisl quam. Pellentesque consectetur feugiat finibus.
 
-From [@cwgw](https://github.com/cwgw):
-
-So digging a little deeper, it looks like Gatsby only looks for "subplugins" at one specific path, `options.plugins`.
-
-`gatsby-plugin-mdx` uses `options.gatsbyRemarkPlugins`. This is fine for transforming markdown as the plugin handles that itself, but Gatsby-specific api files like `gatsby-browser.js` don't get loaded because Gatsby doesn't know they exist.
-
-If you try this…
-
-```javascript
-{
-  resolve: 'gatsby-plugin-mdx',
-  options: {
-    gatsbyRemarkPlugins: [ `gatsby-remark-images` ],
-    plugins: [ `gatsby-remark-images` ],
-  }
-},
-```
-
-…everything works as it should.
+<!--EndFragment-->
