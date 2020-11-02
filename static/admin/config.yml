@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: cjoly69/blog_cms
+  repo: Calade69/blog_cms
 
 media_folder: content/assets
 public_folder: ../assets
